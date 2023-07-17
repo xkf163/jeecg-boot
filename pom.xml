@@ -79,8 +79,10 @@
         <module>jeecg-boot-base-core</module>
         <module>jeecg-module-demo</module>
         <module>jeecg-module-system</module>
-	  <module>jeecg-module-cinema</module>
-  </modules>
+	  	<module>jeecg-module-cinema</module>
+    	<module>jeecg-module-neazj</module>
+		<module>jeecg-server-cloud/jeecg-neazj-cloud-start</module>
+	</modules>
 
 	<repositories>
 		<repository>
@@ -431,7 +433,7 @@
 				<!--Nacos服务地址-->
                 <config.server-addr>jeecg-boot-nacos:8848</config.server-addr>
 				<!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-				<config.namespace></config.namespace>
+				<config.namespace/>
 				<!--Nacos配置分组名称-->
 				<config.group>DEFAULT_GROUP</config.group>
             </properties>
@@ -445,7 +447,7 @@
 				<!--Nacos服务地址-->
                 <config.server-addr>jeecg-boot-nacos:8848</config.server-addr>
 				<!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-				<config.namespace></config.namespace>
+				<config.namespace/>
 				<!--Nacos配置分组名称-->
 				<config.group>DEFAULT_GROUP</config.group>
             </properties>
@@ -459,7 +461,7 @@
 				<!--Nacos服务地址-->
                 <config.server-addr>jeecg-boot-nacos:8848</config.server-addr>
 				<!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-				<config.namespace></config.namespace>
+				<config.namespace/>
 				<!--Nacos配置分组名称-->
 				<config.group>DEFAULT_GROUP</config.group>
             </properties>
