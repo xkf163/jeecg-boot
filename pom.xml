@@ -81,7 +81,6 @@
         <module>jeecg-module-system</module>
 	  	<module>jeecg-module-cinema</module>
     	<module>jeecg-module-neazj</module>
-		<module>jeecg-server-cloud/jeecg-neazj-cloud-start</module>
 	</modules>
 
 	<repositories>

@@ -11,7 +11,7 @@
     <dependencies>
         <dependency>
             <groupId>org.jeecgframework.boot</groupId>
-            <artifactId>jeecg-module-neazj-api</artifactId>
+            <artifactId>jeecg-neazj-api</artifactId>
             <version>3.5.2</version>
         </dependency>
     </dependencies>

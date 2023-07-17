@@ -23,7 +23,7 @@
         <!--引入业务模块-->
         <dependency>
             <groupId>org.jeecgframework.boot</groupId>
-            <artifactId>jeecg-module-neazj-biz</artifactId>
+            <artifactId>jeecg-neazj-biz</artifactId>
             <version>3.5.2</version>
         </dependency>
 
